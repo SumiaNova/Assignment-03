@@ -1,0 +1,36 @@
+body{
+   background-color: rgb(220, 238, 253);
+   background-position: center;
+}
+.container-fluid{
+   text-align: center;
+}
+#country{
+   position:inherit;
+   width: 50px;
+}
+h2{
+   font-family: sans-serif;
+   text-align: center;
+}
+.result{
+   margin-top: 50px;
+}
+.inner-style img {
+   width: 200px;
+}
+.inner-style{
+   position: relative;
+   margin: 10px;
+   padding: 10px;
+   border: 2px solid rgb(247, 195, 235);
+   background-color: rgb(228, 238, 250);
+   border-radius: 10px;
+}
+
+.outer-style{
+  
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 10px;
+}
